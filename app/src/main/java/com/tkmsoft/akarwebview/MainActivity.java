@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "loading,,,", Toast.LENGTH_SHORT).show();
-        WebView webView = (WebView) findViewById(R.id.webView);
-        webView.loadUrl("http://tohfa.net/");
+        WebView webView = findViewById(R.id.webView);
+        webView.loadUrl("http://3qaronline.net/admin/auth");
     }
 }
