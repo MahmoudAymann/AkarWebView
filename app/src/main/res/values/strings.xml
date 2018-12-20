@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">AkarAdmin</string>
+    <string name="app_name" translatable="false">AkarAdmin</string>
 </resources>
