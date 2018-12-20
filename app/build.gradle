@@ -1,6 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'akarwebview'
+            keyPassword 'maymanm'
+            storeFile file('C:/Users/mahmo/Desktop/AkarWebView/app/akarwebview.jks')
+            storePassword 'maymanm'
+        }
+    }
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.tkmsoft.akarwebview"
